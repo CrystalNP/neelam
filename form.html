@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order Online</title>
+</head>
+
+<body>
+    <style>
+        li {
+            display: inline-block;
+            padding: 10px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        ul {
+            text-align: center;
+        }
+    </style>
+    <h1 align="center">Order Manga Online</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="form.html">Order Online</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <font size="4px">
+        <h1 align="center">Place an Order</h1>
+        <form name="Manga" align="center" target="_blank">
+            <fieldset>
+                <legend>Personal Detail</legend>
+                Your name: <input name="name" size="20"> <br> <br>
+                Your age: <input type="number" name="age" size="10"> <br> <br>
+                Your email: <input size="20"> <br> <br>
+                Your phone number: <input type="number" name="phone" size="10"> <br> <br>
+            </fieldset><br>
+
+
+
+            <fieldset>
+                <legend>Gender</legend>
+                Male <input type="radio" name="gender" value="male">
+                Female <input type="radio" name="gender" value="female">
+                Other <input type="radio" name="gender" value="female">
+
+            </fieldset> <br>
+
+            <fieldset>
+                <legend>Manga</legend>
+                Manga:
+                <select name="choice">
+                    <option>Jujutsu Kaisen</option>
+                    <option>Demon Slayer</option>
+                    <option>Tokyo Revengers</option>
+                    <option>Attack on Titan</option>
+                    <option>My Hero Academia</option>
+                    <option>One Piece</option>
+                    <option>Chainsaw Man</option>
+                    <option>Spy x Family</option>
+                    <option>Kingdom</option>
+                    <option>Haikyuu</option>
+                </select>
+                Volume: <input type="number" name="vol" size="10"> <br> <br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Address</legend>
+                Address: <input name="name" size="20"> <br> <br>
+                City:
+                <select name="choice">
+                    <option>Kathmandu</option>
+                    <option>Bhaktapur</option>
+                    <option>Lalitput</option>
+                </select> <br> <br>
+                Street: <input size="20"> <br> <br>
+                Postal / Zip Code: <input type="number" name="post" size="10"> <br> <br>
+            </fieldset><br>
+            <input type="submit"> <input type="reset">
+
+
+        </form>
+    </font>
+</body>
+
+</html>
